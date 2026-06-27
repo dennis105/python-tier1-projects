@@ -11,6 +11,7 @@ def is_valid_binary(binary):
 
     return True
 
+
 def binary_to_decimal(binary):
     decimal = 0
     power = len(binary) - 1
@@ -21,10 +22,16 @@ def binary_to_decimal(binary):
 
     return decimal
 
-binary_number = input('Enter a binary number, up to 8 digits: ')
 
-if is_valid_binary(binary_number):
-    decimal_number = binary_to_decimal(binary_number)
-    print(f"Decimal value: {decimal_number}")
-else:
-    print("Invalid binary number. Use only 0 and 1, maximum 8 digits.")
+while True:
+    binary_number = input('Enter a binary number, up to 8 digits, or q to quit: ')
+
+    if binary_number.lower() == 'q':
+        print("Quitting...")
+        break
+
+    if is_valid_binary(binary_number):
+        decimal_number = binary_to_decimal(binary_number)
+        print(f"Decimal value: {decimal_number}")
+    else:
+        print("Invalid binary number. Use only 0 and 1, maximum 8 digits.")

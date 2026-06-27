@@ -12,8 +12,14 @@ A simple Python console app that converts a binary number into a decimal number.
 ## Example
 
 ```txt
-Enter a binary number, up to 8 digits: 11010101
-Decimal value: 213
+Enter a binary number, up to 8 digits, or q to quit: 1011
+Decimal value: 11
+Enter a binary number, up to 8 digits, or q to quit: 01101110
+Decimal value: 110
+Enter a binary number, up to 8 digits, or q to quit: 2
+Invalid binary number. Use only 0 and 1, maximum 8 digits.
+Enter a binary number, up to 8 digits, or q to quit: q
+Quitting...
 ```
 
 ## How to run
@@ -31,6 +37,5 @@ python main.py
 
 ## Next improvements
 
-- Allow multiple conversions without restarting the program
-- Add a quit option
 - Add automated tests
+- Add a graphical or web interface
