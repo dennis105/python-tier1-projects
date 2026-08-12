@@ -7,7 +7,7 @@ A collection of beginner Python projects based on the App Ideas repository.
 | #  | Project                     | Concepts                                        | Status      |
 |----|-----------------------------|-------------------------------------------------|-------------|
 | 1  | [Bin2Dec](01-bin2dec)       | Input, validation, binary-to-decimal conversion | Completed   |
-| 2  | [Calculator](02-calculator) | Functions, conditionals, menus                  | In Progress |
+| 2  | [Calculator](02-calculator) | Functions, conditionals, menus                  | Completed   |
 | 3  | Countdown Timer             | Time, loops, `time.sleep`                       | Not Started |
 | 4  | CSV2JSON                    | Files, `csv`, `json`                            | Not Started |
 | 5  | Cause Effect App            | Lists, dictionaries                             | Not Started |
